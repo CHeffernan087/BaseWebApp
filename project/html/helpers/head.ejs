@@ -12,7 +12,7 @@
 <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
 
 <!-- this app's own css -->
-<link rel="stylesheet" type="text/css" href="css/main.css"/>
+<link rel="stylesheet" type="text/css" href="css/main.css" />
 
 
 
@@ -23,6 +23,35 @@
 
 <!-- then bootstrap -->
 <script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.9.3/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.9.3/firebase-analytics.js"></script>
+
+
+<script src="https://www.gstatic.com/firebasejs/7.9.3/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.9.3/firebase-database.js"></script>
+
+
+<script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+        apiKey: "AIzaSyAF5i-jWOcGLTCUzF8Yi78R8Eb3S1JNHls",
+        authDomain: "taketwo-a8cf4.firebaseapp.com",
+        databaseURL: "https://taketwo-a8cf4.firebaseio.com",
+        projectId: "taketwo-a8cf4",
+        storageBucket: "taketwo-a8cf4.appspot.com",
+        messagingSenderId: "470313058647",
+        appId: "1:470313058647:web:01fa4af90c5b2435487e12",
+        measurementId: "G-R2SDG3CL9X"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+</script>
 
 <!-- then our app's own js file -->
 <script src="js/main.js"></script>

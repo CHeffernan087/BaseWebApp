@@ -1,11 +1,10 @@
-
 body {
   background-color: #d0e4fe;
   text-align: center;
 }
 
 h1 {
-  font-family: 'Lobster', cursive;
+  font-family: "Lobster", cursive;
   color: orange;
 }
 
@@ -17,4 +16,113 @@ p {
 #doge-image img {
   height: 140px;
   margin-top: 20px;
+}
+
+body {
+  padding-top: 70px;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 50px;
+  text-transform: uppercase;
+}
+
+h4 {
+  color: #b5b5b5;
+}
+
+.page-header {
+  text-align: center;
+}
+
+.tina-gif {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.queen-of-computers {
+  width: 300px;
+  margin: 50px auto;
+  border-radius: 50%;
+  display: block;
+}
+
+.content {
+  margin-bottom: 50px;
+}
+
+.code-container {
+  display: flex;
+  justify-content: space-around;
+  text-align: left;
+}
+
+.code-container img {
+  padding: 20px;
+  max-width: 300px;
+  max-height: 200px;
+}
+
+.contact-container {
+  text-align: center;
+}
+
+.contact-container .content {
+  margin-top: 50px;
+}
+
+.contact-icon {
+  font-size: 45px;
+  margin: 0 5px;
+}
+
+.contact-icon-link:hover {
+  text-decoration: none;
+}
+
+.contact-icon.fa-linkedin-square {
+  color: #007bb6;
+}
+
+.contact-icon.fa-github-square {
+  color: #353535;
+}
+
+.contact-icon.fa-facebook-square {
+  color: #3b5998;
+}
+
+.form {
+  height: 400px;
+  width: 300px;
+  background-color: white;
+  border-radius: 8px;
+  align-self: center;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-top: 40px;
+}
+
+input {
+  width: 70%;
+  align-self: center;
+  margin-bottom: 20px;
+  height: 30px;
+  border-radius: 4px;
+  background-color: #f5f8fa;
+  border: 1px solid grey;
+  padding-left: 10px;
+}
+
+.submitbutton {
+  height: 40px;
+  width: 50%;
+  background-color: #fe7a58;
+  color: white;
+  border-radius: 4px;
+  border: none;
+  align-self: center;
 }
